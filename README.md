@@ -3,7 +3,7 @@ Final training script, prototype and model checkpoints for group 8's AI ML &amp;
 
 # Image Classification Model (Fine-tuning & Inference)
 
-This repository contains two Jupyter notebooks:
+This repository contains two Jupyter notebooks and a model checkpoint:
 - **`final_model_finetuning.ipynb`**: Fine-tunes a pretrained image classification model.
 - **`final_prototype.ipynb`**: Performs inference using the trained model.
 - **`best_model_weights.pt`**: Model checkpoint. 
@@ -24,7 +24,9 @@ Inference:
 Load the images or video and model checkpoints
 Run final_prototype.ipynb, using the extract_frames_per_second function in case a video is uploaded
 
-## 📄 License
-MIT License
+## 📄 Dataset
+
+Data used to train the model can be found at https://www.kaggle.com/datasets/mohammadabuayyash1/micro-data
+
 
 
