@@ -14,15 +14,17 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
-🚀 Running the Notebooks
+## 🚀 Running the Notebooks
 Training:
-Run notebooks/final_model_finetuning.ipynb to fine-tune the model and save weights.
+Run final_model_finetuning.ipynb to fine-tune the model and save weights.
 
 Inference:
-Run notebooks/final_prototype.ipynb to load the model and make predictions using the saved checkpoint.
+Load the images or video and model checkpoints
+Run final_prototype.ipynb, using the extract_frames_per_second function in case a video is uploaded
 
-📄 License
+## 📄 License
 MIT License
 
 
